@@ -11,7 +11,7 @@
 
         <section class="comics-section mt-3 mb-3">
             <div class="container">
-                <ul class="comics-list">
+                <ul class="comics-list no-list-style">
                     @foreach ( $comics as $comic)
                         <li>
                             <a href="#">

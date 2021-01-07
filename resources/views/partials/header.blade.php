@@ -2,7 +2,7 @@
         <header class="main-header"> 
         
             <div class="container">
-                <a href="/" class="navbar-logo">
+                <a href="{{ route('home')}}" class="navbar-logo">
                     <img src="{{ asset('images/logo.png') }}" alt="">
                 </a>
 

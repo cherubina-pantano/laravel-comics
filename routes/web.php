@@ -13,13 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+//HOMEPAGE
+//Route::get('/', function () {
 
     //Get comics list
-    $comics = config('comics');
+ //   $comics = config('comics');
     //dd($comics);
+    
+ //   return view('home', compact('comics'));
+//})->name('home');
 
-
-
-    return view('home', compact('comics'));
-});
+Route::get('/', 'HomeController@index')->name('home');
