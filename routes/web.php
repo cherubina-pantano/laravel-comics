@@ -19,8 +19,11 @@ use Illuminate\Support\Facades\Route;
     //Get comics list
  //   $comics = config('comics');
     //dd($comics);
-    
+
  //   return view('home', compact('comics'));
 //})->name('home');
 
 Route::get('/', 'HomeController@index')->name('home');
+
+// Comics Details
+Route::get('comic/{id}', 'ComicController@show')->name('comic-detail');
