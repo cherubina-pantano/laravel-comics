@@ -1,0 +1,32 @@
+.main-footer {
+    background-image: url('../images/footer-bg.jpg');
+    background-position: center;
+    //background-repeat: no-repeat;
+
+    div {
+        margin-left: .5rem;
+        padding: 1rem;
+        font-size: .8rem;
+        line-height: 24px;
+
+    }
+    h3 {
+        color: #fff;
+    }
+}
+.wrap-footer {
+    //background-image: url('../images/logo-footer.png');
+    background: transparent;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+.copy-footer {
+    color: #fff;
+    p {
+        margin-left: .5rem;
+        line-height: normal;
+    }
+    span {
+        color: #0c7cec;
+    }
+}

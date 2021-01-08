@@ -23,7 +23,7 @@
                 </ul>                
             </div>
             <div class="btn-container">
-                <button> LOAD MORE </button>        
+                <button> <a href="#">LOAD MORE</a> </button>        
             </div>
         </section>
 

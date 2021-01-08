@@ -17,6 +17,7 @@ img {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 .container {
@@ -214,7 +215,6 @@ a {
   padding: 20px 0;
 }
 .comics-list a {
-  color: #fff;
   font-size: 0.75rem;
 }
 
@@ -232,8 +232,38 @@ a {
   text-transform: uppercase;
   font-size: 0.9rem;
   font-weight: bold;
-  color: #fff;
 }
 .dc-banner ul .dc-features img {
   width: 52px;
+}
+
+.main-footer {
+  background-image: url("../images/footer-bg.jpg");
+  background-position: center;
+}
+.main-footer div {
+  margin-left: 0.5rem;
+  padding: 1rem;
+  font-size: 0.8rem;
+  line-height: 24px;
+}
+.main-footer h3 {
+  color: #fff;
+}
+
+.wrap-footer {
+  background: transparent;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.copy-footer {
+  color: #fff;
+}
+.copy-footer p {
+  margin-left: 0.5rem;
+  line-height: normal;
+}
+.copy-footer span {
+  color: #0c7cec;
 }
