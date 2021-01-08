@@ -3,16 +3,29 @@ body {
   padding: 0;
   font-family: sans-serif;
   font-size: 16px;
+  color: #000;
 }
 
 img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jc-sbetween {
+  justify-content: space-between;
 }
 
 .mt-0 {
@@ -114,6 +127,45 @@ img {
 .no-list-style {
   list-style: none;
   padding: 0;
+}
+
+.header-overall {
+  background-color: #0c7cec;
+  color: #fff;
+  justify-content: end;
+}
+.header-overall span {
+  padding: 2px 10px;
+  margin-right: 15px;
+  font-size: 10px;
+}
+
+.navbar-nav ul {
+  align-items: center;
+}
+.navbar-nav ul li {
+  padding: 0 0.8rem;
+}
+.navbar-nav ul li a {
+  text-transform: uppercase;
+}
+.navbar-nav ul li i {
+  color: #0c7cec;
+}
+
+.search-nav {
+  align-items: center;
+}
+.search-nav a {
+  border-bottom: 3px solid #0c7cec;
+  padding-left: 1.5rem;
+  padding-bottom: 3px;
+}
+
+.navbar-nav a,
+.search-nav a {
+  font-weight: 600;
+  color: #000;
 }
 
 .general-hero {

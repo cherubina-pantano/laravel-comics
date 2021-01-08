@@ -4,6 +4,14 @@
     padding: 0 1rem;
 }
 
+.d-flex {
+    display: flex;
+}
+
+.jc-sbetween {
+    justify-content: space-between;
+}
+
 // SPACERS
 
 @each $size in 0, 1, 2, 3, 4, 6 {
