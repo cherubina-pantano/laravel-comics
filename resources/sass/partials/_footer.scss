@@ -1,11 +1,12 @@
 .main-footer {
     background-image: url('../images/footer-bg.jpg');
     background-position: center;
-    //background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     div {
-        margin-left: .5rem;
-        padding: 1rem;
+        //margin-left: .5rem;
+        //padding: 1rem;
         font-size: .8rem;
         line-height: 24px;
 
@@ -15,8 +16,8 @@
     }
 }
 .wrap-footer {
-    //background-image: url('../images/logo-footer.png');
-    background: transparent;
+    background-image: url('../images/logo-footer.png');
+    //background: transparent;
     background-position: center right;
     background-repeat: no-repeat;
 }
@@ -30,3 +31,37 @@
         color: #0c7cec;
     }
 }
+
+
+.footer-bottom {
+    padding: 1rem;
+    background-color: #303030;
+}
+.sign-in {
+    button {
+        padding: 16px 20px;
+        border: 2px solid #0c7cec;
+        background-color: transparent;
+        a {
+            font-weight: bold;
+        }
+    }
+}
+.social-icons {
+    align-items: center;
+    h3 {
+        margin-right: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #0c7cec;
+    }
+    i {
+        margin: 0 5px;
+        padding: .5rem;
+        font-size: 1rem;
+        border-radius: 50%;
+        background-color: #797979;
+        color: #303030;
+    }
+}
+

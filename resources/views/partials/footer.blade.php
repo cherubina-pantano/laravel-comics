@@ -39,6 +39,7 @@
                         <li>
                                 <a href="#">Shop DC Collectibles</a>
                         </li>
+                        
                         </ul>
 
                         </div>
@@ -106,7 +107,7 @@
                         </ul>
 
                         </div> 
-                <img src="{{ asset('images/logo-footer.png') }}" alt="">
+                
 
                 </div>
                 <div class="copy-footer d-flex">
@@ -116,7 +117,27 @@
                         <span> Cookies Settings</span>
                 </p>
                 </div>
-
+                <!-- <div class="logo-footer d-flex">
+                        <img src="{{ asset('images/logo-footer.png') }}" alt="">
+                </div> -->
+    </div>
+    
+    <div class="footer-bottom">
+            <div class="container d-flex jc-sbetween">
+                  <div class="sign-in">
+                          <button>
+                                  <a href="#"> SIGN-UP NOW!</a>
+                          </button>
+                  </div>  
+                  <div class="social-icons d-flex">
+                        <h3> Follow Us</h3>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fas fa-map-marker-alt"></i>
+                  </div>
+            </div>
     </div>
         
         
