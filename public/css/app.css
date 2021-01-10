@@ -181,7 +181,7 @@ a {
   background-position: center top;
   position: relative;
 }
-.general-hero .cover-home {
+.general-hero .cover-comic {
   position: absolute;
   left: 20%;
   bottom: 0;
@@ -237,6 +237,61 @@ a {
   width: 52px;
 }
 
+.info-comic {
+  margin-right: 2rem;
+}
+.info-comic h1 {
+  color: #003f5e;
+  text-transform: uppercase;
+}
+
+.price {
+  padding: 1rem;
+  border-bottom: 1px solid #000;
+  color: #fff;
+  background-color: #55ba59;
+}
+.price .check-avaibility {
+  margin-left: 5px;
+  padding: 1rem;
+  border-left: 1px solid #000;
+}
+
+.adv-comic h4 {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: end;
+}
+
+.details-section-bottom {
+  background-color: #f6f6f6;
+  justify-content: space-around;
+}
+.details-section-bottom h3 {
+  padding: 1rem;
+  color: #003f5e;
+  border-bottom: 1px solid;
+}
+.details-section-bottom .talent {
+  margin-right: 15px;
+}
+.details-section-bottom .talent h6 {
+  color: #003f5e;
+}
+.details-section-bottom .talent h6 span {
+  color: #0c7cec;
+}
+
+.specs {
+  margin-left: 15px;
+}
+.specs h6 {
+  color: #003f5e;
+}
+.specs h6 .specs-title {
+  color: #0c7cec;
+}
+
 .main-footer {
   background-image: url("../images/footer-bg.jpg");
   background-position: center;
@@ -244,6 +299,7 @@ a {
   background-repeat: no-repeat;
 }
 .main-footer div {
+  padding: 1rem;
   font-size: 0.8rem;
   line-height: 24px;
 }
@@ -253,6 +309,7 @@ a {
 
 .wrap-footer {
   background-image: url("../images/logo-footer.png");
+  background-size: contain;
   background-position: center right;
   background-repeat: no-repeat;
 }

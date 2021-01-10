@@ -6,7 +6,7 @@
 
     div {
         //margin-left: .5rem;
-        //padding: 1rem;
+        padding: 1rem;
         font-size: .8rem;
         line-height: 24px;
 
@@ -17,7 +17,7 @@
 }
 .wrap-footer {
     background-image: url('../images/logo-footer.png');
-    //background: transparent;
+    background-size: contain;
     background-position: center right;
     background-repeat: no-repeat;
 }

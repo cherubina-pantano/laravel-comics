@@ -7,7 +7,9 @@ $comics = [
         'image-cover' => 'https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/06/actioncomics_957_5b1c1ca448dcd2.62281310.jpg?itok=U_cqqzSq',
         'title' => 'ACTION COMICS',
         'price' => 9.99,
-        'body' => '<p>“PATH TO DOOM” Chapter One</p><p>Superman returns to Metropolis just in time to meet the city of tomorrow’s newest protector: Lex Luthor. But it’s not long before these dueling titans meet someone unexpected — the new Clark Kent!</p><p>DON’T MISS: ACTION COMICS returns to its original numbering with this issue!</p><p>NOW SHIPPING TWICE MONTHLY!&nbsp;</p><p>&nbsp;</p>'
+        'body' => '<p>“PATH TO DOOM” Chapter One</p><p>Superman returns to Metropolis just in time to meet the city of tomorrow’s 
+        newest protector: Lex Luthor. But it’s not long before these dueling titans meet someone unexpected — the new Clark Kent!</p>
+        <p>DON’T MISS: ACTION COMICS returns to its original numbering with this issue!</p><p>NOW SHIPPING TWICE MONTHLY!&nbsp;</p><p>&nbsp;</p>'
     ],
     [
         'id' => 101,

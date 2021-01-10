@@ -5,7 +5,7 @@
     <main class="wrap-home mb-2"> 
         <section class="general-hero">
             <div class="container">
-                <img class="cover-home"src="{{ asset('images/cover-home.jpg')}}" alt="">
+                <img class="cover-comic"src="{{ asset('images/cover-home.jpg')}}" alt="">
             </div>
         </section>
 
